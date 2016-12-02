@@ -1,0 +1,125 @@
+
+/*---------css comun--------*/
+button{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid blue;
+    color: white;
+}
+
+/*-------header----------*/
+header{
+    position: fixed; z-index: 2000;
+    width: 100%;
+
+}
+header nav{
+    background-color: #f8f8f8;
+}
+header .container{
+    padding-left: 0; !important;
+    padding-right: 0; !important;
+    
+}
+header .navbar .navbar-default{
+    margin: 0; !important;
+}
+
+/*-----------hero---------*/
+.hero{
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0 auto;
+}
+
+.hero .text-center{
+    width: 60%;
+    margin: 200px auto;
+}
+
+.hero .text-center h1{
+    font-size: 25px;
+}
+.hero .text-center p{
+    color: black;
+}
+/*---------documental--------*/
+.documental{
+    padding: 50px 0;
+}
+.documental h2{
+    padding-bottom: 10px;
+}
+
+/*---------hackathon-------*/
+.hackathon{
+    background-color: yellow;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+/*--------contacto-----*/
+.contacto{
+    padding: 50px 0;
+}
+.contacto p input{
+    width: 100%;
+    
+}
+.contacto textarea{
+    width: 100%;
+}
+.contacto button{
+        margin: 15px 0;
+    }
+/*------footer-----*/
+footer{
+    height: 100px;
+    background-color: #4497a3;
+    line-height: 100px;
+    color: white;
+}
+footer span{
+    color: yellow;
+}
+
+/*------------responsive------------*/
+/*-----movil-----*/
+@media screen and (max-width: 414px){
+    .hero .text-center{
+        margin: 100px auto;
+        width: 100%;
+    }
+    .documental h2{
+        text-align: center;
+        width: 200px;
+        margin: 0 auto;
+    }
+    .hackathon{
+        padding: 20px 0;
+    }
+    .contacto{
+        padding: 20px 0;
+    }
+    .contacto button{
+        margin: 10px 0;
+    }
+    footer p{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+/*------tablet----*/
+@media screen and (max-width: 786px){
+    .hero .text-center{
+    width: 100%;
+    }
+}
+
+
+
+
+
+
